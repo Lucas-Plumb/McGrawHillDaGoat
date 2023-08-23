@@ -1,5 +1,4 @@
 const goat =  document.getElementById("goat")
-
-addEventListener("mouseover", (event) => {
+function hover() {
   goat.textContent = "GREATEST OF ALL TIME"
-});
+}
